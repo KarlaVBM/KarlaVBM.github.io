@@ -1,0 +1,112 @@
+.cont-full-skills{
+   background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 250px;
+    float: left;
+
+    padding-left: 150px;
+    padding-right: 150px;
+
+    position: relative;
+
+    
+    
+  
+}
+
+.cont-full-skills button{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: 60px;
+    right: 150px;
+}
+
+.cont-full-skills h2{
+    
+    background-color: transparent;
+    font-family: "Bebas";
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    width: 100%;
+  
+    float: left;
+    color: white;
+    text-align: center;
+    color: deeppink ;
+    /*-webkit-text-stroke:rgb(255, 138, 200) 1px;
+    text-shadow: 0px 0px 3px rgb(255, 138, 200);*/
+   
+}
+
+.cont-skills{
+    background-color: transparent;
+    width: 100%;
+    height: 120px;
+    float: left;
+    margin-top: 20px;
+    overflow: hidden;
+    overflow-x: auto;
+
+
+    
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+.cont-skills::-webkit-scrollbar{
+    height: 0px;
+}
+
+.cont-skills-into{
+    background-color: transparent;
+    width: auto;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill{
+    background-color: transparent;
+    border: rgba(255, 255, 255, 0.2) 2px solid;
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.skill img{
+    width: 50px;
+    height: 50px;
+    object-fit:contain ;
+}
+
+.skill:hover{
+    background-color: transparent;
+    cursor: pointer;
+    width: 90px;
+    height: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    border: white 2px solid;
+}
+
+.skill:hover img{
+    width: 70px;
+    height: 70px;
+}

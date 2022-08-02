@@ -1,0 +1,70 @@
+.cont-full-socialMedia{
+    background-color: transparent;
+    width: 70px;
+    height: 100vh;
+    float: left;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.cont-full-socialMedia a{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.cont-socialMedia{
+    background-color: transparent;
+    width: 50px;
+    height: 260px;
+    float: left;
+    display: flex;                  
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.socialMedia{
+    background-color: rgba(255, 255, 255,1);
+    width: 100%;
+    height: 50px;
+    float: left;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia i{
+    background-color: transparent;
+    float: left;
+    font-size: 20px;
+    color: black;
+}
+
+.socialMedia:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black;
+    box-shadow: white 0px 0px 5px;
+}
+
+.socialMedia:hover i{
+    transition: 0.5s;
+    color: white;
+    transform: scale(1.5);
+    text-shadow: 0px 0px 10px rgb(0, 140, 255);
+}
+
+@keyframes socialMedia{
+  
+   
+} 
