@@ -27,7 +27,7 @@ p{
 
 
 .cont-full{
-   background-image: url("/src/public/media/galaxia1.jfif");
+   background-image: url("../media/galaxia1.jfif");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: top;
