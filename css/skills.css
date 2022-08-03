@@ -1,11 +1,12 @@
 .cont-full-skills{
    background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
-    height: 250px;
+    height: auto;
+    min-height: 350px;
     float: left;
 
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 90px;
+    padding-right: 90px;
 
     position: relative;
 
@@ -45,22 +46,31 @@
 .cont-skills{
     background-color: transparent;
     width: 100%;
-    height: 120px;
+    height: 160px;
     float: left;
     margin-top: 20px;
-    overflow: hidden;
+  
     overflow-x: auto;
 
 
     
     display: flex;
+    flex-direction: row;
     align-items: center;
-   
+    
    
 }
 
 .cont-skills::-webkit-scrollbar{
-    height: 0px;
+    height: 10px;
+    background-color: deeppink;
+    box-shadow: 0px 0px 10px deeppink;
+    z-index: 1;
+}
+
+.cont-skills::-webkit-scrollbar-thumb{
+    background: rgb(255, 134, 1990,0.8);
+    border-radius: 5px;
 }
 
 .cont-skills-into{
@@ -71,11 +81,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .skill{
     background-color: transparent;
-    
+  
     width: 80px;
     height: 80px;
     float: left;
@@ -87,7 +101,8 @@
     align-items: center;
 
     overflow: hidden;
-   
+
+
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
     border: white 2px solid;
 }
