@@ -37,3 +37,32 @@ p{
     
     float: left;
 }
+
+
+.nube{
+    background-color: transparent;
+    width: 120px;
+    height: 100px;
+    float: left;
+    background-image: url("../media/cohete.png");
+    background-size: 100% 100%;
+    position: fixed;
+   
+    animation: mov1 10s infinite alternate;
+  
+
+}
+
+@keyframes mov1 {
+    from{
+        right: 130%;
+        top: 300px;
+       
+    }
+    to{
+        right: -400px;
+        top: -60px;
+        
+    }
+    
+}
