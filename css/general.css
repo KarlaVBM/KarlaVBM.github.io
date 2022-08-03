@@ -30,6 +30,7 @@ p{
    background-image: url("../media/galaxia1.jfif");
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
    background-position: top;
     width: 100%;
     height: auto;
