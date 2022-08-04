@@ -74,7 +74,6 @@
     }
 
     .cont-socialMedia{
-        background-color: transparent;
         width: 100%;
         max-width: 300px;
         height: 50px;
@@ -83,4 +82,28 @@
         padding-bottom: 0px;
     }
 
+}
+
+
+@media (max-width:300px){
+    .cont-full-socialMedia{
+        height: 60px;
+        top: calc(100% - 60px);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cont-socialMedia{
+        height: 40px;
+    }
+
+    .cont-full-socialMedia a{
+        width: 40px;
+        height: 40px;
+    }
+
+    .socialMedia{
+        height: 40px;
+    }
+    
 }
