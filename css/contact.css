@@ -3,6 +3,7 @@
     width: 100%;
     height: 400px;
     float: left;
+    overflow: hidden;
 }
 
 .cont-full-contact h2{
