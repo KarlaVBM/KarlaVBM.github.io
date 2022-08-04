@@ -1,6 +1,3 @@
-//obtener heigt del body
-var alto=$(".cont-full").height();
-var home=$("#home").height();
 
 $("#home").on('click', function (e) {
     //Subir el scroll arriba
@@ -10,31 +7,30 @@ $("#home").on('click', function (e) {
 
 $("#info").on('click', function (e) {
     //Subir el scroll arriba
-    $("html, body").animate({ scrollTop: 500-70 }, "slow");
+    $('html, body').animate({
+        scrollTop: $(".cont-full-info").offset().top - 70
+        }, 2000);
     return false;
 }); 
 
 $('#habilidades').on('click', function (e){
-    $("html, body").animate({ scrollTop: 900-70 }, "slow");
+    /*$("html, body").animate({ scrollTop: 900-70 }, "slow");*/
+    $('html, body').animate({
+        scrollTop: $(".cont-full-skills").offset().top - 70
+        }, 2000);
     return false;
 } );
 
 $('#briefcase').on('click', function (e){
-    $("html, body").animate({ scrollTop: 1150-70 }, "slow");
+    $('html, body').animate({
+        scrollTop: $(".cont-full-briefcase").offset().top - 70
+        }, 2000);
     return false;
 } );
 
 $("#contact").on('click', function (e){
-    $("html, body").animate({ scrollTop: 1550-70 }, "slow");
-    return false;
-});
-
-
-
-
-
-$("#btnDez-rigth").on('click', function (e){
-    $(".cont-skills").animate({ scrollX: 0 });
-    //$(".cont-skills").animate({ scrollX: 0 }, "slow");
+    $('html, body').animate({
+        scrollTop: $(".cont-full-contact").offset().top - 70
+        }, 2000);
     return false;
 });
