@@ -2,8 +2,11 @@
     background-color: rgba(0, 0, 0, 0.9);
     
     width: 100%;
-    height: 400px;
+    height: auto;
+    min-height: 400px;
     float: left;
+
+    overflow: hidden;
 }
 
 .cont-full-info h2{
@@ -21,4 +24,39 @@
     /*-webkit-text-stroke:rgb(255, 138, 200) 1px;
     text-shadow: 0px 0px 3px rgb(255, 138, 200);*/
    
+}
+
+.info-full-photo{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info-photo{
+    background-color: deeppink;
+    background-image: url("../media/yo.jpg");
+    background-size: 100% 100%;
+    background-position: top;
+    width: 50vw;
+    height: 50vw;
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 100%;
+
+    box-shadow: 0px 0px 15px deeppink;
+    border: deeppink 2px solid;
 }
