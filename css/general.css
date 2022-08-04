@@ -2,6 +2,7 @@ body{
     background-color: black;
     padding: 0px;
     margin: 0;
+    overflow-x: hidden;
 }
 
 p{
@@ -43,14 +44,26 @@ p{
     background-color: transparent;
     width: 120px;
     height: 100px;
-    float: left;
     background-image: url("../media/nube.png");
     background-size: 100% 100%;
+    float: left;
+   
     position: fixed;
    
     animation: mov1 10s infinite alternate;
   
 
+}
+
+.estrella{
+    background-color: transparent;
+    width: 150px;
+    height:100px;
+    background-image: url("../media/estrella.png");
+    background-size: 100% 100%;
+    position: fixed;
+   
+    animation: estrella1 10s infinite ;
 }
 
 @keyframes mov1 {
@@ -62,7 +75,19 @@ p{
     to{
         right: -400px;
         top: -60px;
-        
+       
+    }
+    
+}
+
+@keyframes estrella1 {
+    from{
+        right: 20%;
+        top: -10%;
+    }
+    to{
+        right: 130%;
+        top: 120%;
     }
     
 }
