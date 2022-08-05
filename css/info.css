@@ -194,3 +194,76 @@
     box-shadow:0px 0px 10px deeppink;
     text-shadow: 0px 0px 2px deeppink;
 }
+
+
+@media (max-width:1000px){
+    .cont-full-aboutme{
+        background-color: transparent;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .info-full-photo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-cv button{
+        height: 30px;
+    }
+}
+
+
+@media (max-width:520px){
+    .cont-aboutme-h1{
+        font-size: 22px;
+    }
+
+    .cont-aboutme-h1-2:nth-child(1){
+        font-size: 22px;
+    }
+
+    .cont-aboutme-h1-2:nth-child(2){
+        font-size: 28px;
+    }
+}
+
+@media (max-width:400px){
+    .cont-full-aboutme{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .cont-aboutme-h1{
+        font-size: 20px;
+    }
+
+    .cont-aboutme-h1-2:nth-child(1){
+        font-size: 20px;
+    }
+
+    .cont-aboutme-h1-2:nth-child(2){
+        font-size: 26px;
+    }
+}
+
+@media (max-width:330px){
+    .cont-aboutme-h1{
+        font-size: 15px;
+    }
+
+    .cont-aboutme-h1-2:nth-child(1){
+        font-size: 15px;
+    }
+
+    .cont-aboutme-h1-2:nth-child(2){
+        font-size: 20px;
+    }
+
+    .cont-bio p{
+        font-size: 12px;
+    }
+}
