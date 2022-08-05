@@ -1,5 +1,5 @@
 .cont-full-info{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgb(0, 0, 0,0.9);
     
     width: 100%;
     height: auto;
@@ -7,6 +7,7 @@
     float: left;
 
     overflow: hidden;
+    padding-bottom: 40px;
 }
 
 .cont-full-info h2{
@@ -23,19 +24,18 @@
     color: deeppink ;
     /*-webkit-text-stroke:rgb(255, 138, 200) 1px;
     text-shadow: 0px 0px 3px rgb(255, 138, 200);*/
+    margin-bottom: 60px;
    
 }
 
 .info-full-photo{
     background-color: transparent;
-    width: 100%;
+    width: 40%;
     height: auto;
     min-height: 40px;
     float: left;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -50,7 +50,7 @@
     height: 50vw;
     max-width: 300px;
     max-height: 300px;
-    float: left;
+    float: right;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,4 +59,138 @@
 
     box-shadow: 0px 0px 15px deeppink;
     border: deeppink 2px solid;
+}
+
+
+
+
+/*NUEVO*/
+.cont-full-aboutme{
+    background-color:transparent;
+    width: 60%;
+    height: max-content;
+    float: left;
+    overflow: hidden;
+    padding-right: 40px;
+    
+}
+
+
+.cont-aboutme{
+    background-color:transparent;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    min-height: 300px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    
+}
+
+.cont-aboutme-h1{
+    background-color: transparent;
+    width: 100%;
+    float: left;
+    padding: 5px;
+    margin: 0;
+    font-size: 30px;
+    color: deeppink;
+    font-family: "LEMONMILK-Bold";
+}
+
+
+.div-info:nth-child(1){
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+
+.div-info:nth-child(2){
+    background-color:transparent;
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    display: flex;
+    align-items: baseline;
+}
+
+.cont-aboutme-h1-2:nth-child(1){
+    background-color:transparent;
+    width: auto;
+    float: left;
+    padding: 5px;
+    margin: 0;
+    font-size: 30px;
+    color: deeppink;
+    font-family: "LEMONMILK-Bold";
+}
+
+.cont-aboutme-h1-2:nth-child(2){
+    background-color: transparent;
+    width: auto;
+    float: left;
+    padding: 5px;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    font-family: "LEMONMILK-ligth";
+}
+
+.cont-cv{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+.cont-bio{
+    background-color: transparent;
+    width: 100%;
+    height: max-content;
+    min-height: 100px;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+    text-align: justify;
+}
+
+.cont-bio p{
+    color: white;
+    
+    font-weight: 600;
+    font-family: "LEMONMILK-ligth";
+}
+
+.cont-cv button{
+    background-color: transparent;
+    width: 140px;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+    
+    border-style: none;
+    color: rgb(0, 140, 255);
+    font-weight: 600;
+    box-shadow:0px 0px 10px deepskyblue;
+    border: white 2px solid;
+   
+    text-shadow: 0px 0px 2px deepskyblue;
+}
+
+.cont-cv button:hover{
+    color: deeppink;
+    border: deeppink 1px solid;
+    box-shadow:0px 0px 10px deeppink;
+    text-shadow: 0px 0px 2px deeppink;
 }
