@@ -107,3 +107,51 @@
     }
   }
 
+
+  .cont-full-MinMenu{
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      min-height: 100vh;
+      height: 100%;
+      float: left;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: none;
+      z-index: 9;
+      
+  }
+
+  .container-minMenu{
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(1rem);
+      width: 100%;
+      max-width: 400px;
+      height: 100vh;
+      float: right;
+      margin-top: 70px;
+      
+  }
+
+  .minMenu{
+      background-color: transparent;
+      width: 100%;
+      min-height: 50px;
+      height: auto;
+      float: left;
+      overflow: hidden;
+      border-top: rgb(0, 140, 255,0.3) 1px solid;
+      text-shadow: 0px 0px 5px deepskyblue;
+      padding-left: 15px;
+      padding-right: 15px;
+      display: flex;
+      align-items: center;
+  }
+
+  .minMenu p{
+      float: left;
+      font-weight: 700;
+      font-size: 20px;
+      font-family: "LEMONMILK-ligth";
+      color: white;
+  }
