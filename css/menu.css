@@ -4,7 +4,6 @@
     width: 100%;
     height: 70px;
     float: left;
-    
     position: fixed;
     top: 0px;
     display: flex;
@@ -146,7 +145,23 @@
       padding-right: 15px;
       display: flex;
       align-items: center;
+      cursor: pointer;
   }
+
+  .minMenu:hover{
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(1rem);
+    
+  }
+
+  .minMenu:hover p{
+    font-size: 22px;
+  }
+
+  .minMenu:active{
+    font-size: 22px;
+  }
+
 
   .minMenu p{
       float: left;
