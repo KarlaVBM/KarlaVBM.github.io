@@ -1,9 +1,10 @@
 .cont-full-contact{
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
-    height: 400px;
+    height: auto;
     float: left;
     overflow: hidden;
+    
 }
 
 .cont-full-contact h2{
@@ -20,4 +21,106 @@
     color: deeppink ;
     /*-webkit-text-stroke:rgb(255, 138, 200) 1px;
     text-shadow: 0px 0px 3px rgb(255, 138, 200);*/
+}
+
+.cont-full-contact-into{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.cont-contact{
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    min-height: 300px;
+    float: left;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 5;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px white ;
+    border: white 2px solid;
+}
+
+.cont-contact input{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 40px;
+    float: left;
+    color: rgb(0, 140, 255);
+    text-shadow: 0px 0px 2px deepskyblue;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: none;
+    border: white 2px solid;
+    border-radius: 20px;
+    
+}
+
+.cont-contact input:focus{
+    box-shadow: 0px 0px 10px 2px deeppink;
+}
+
+.cont-contact textarea{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    float: left;
+    min-height: 200px;
+    resize: vertical;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border: white 2px solid;
+}
+
+.cont-contact textarea:focus{
+    box-shadow: 0px 0px 10px 2px deeppink;
+}
+
+.cont-contact p{
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.cont-contact button{
+    background-color: deeppink;
+    color: white;
+    font-family: "LEMONMILK-ligth";
+    font-size: 20px;
+    font-weight: 800;
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    border-style: none;
+    border-radius: 20px;
+    border: 2px rgb(255, 163, 212) solid;
+    box-shadow: 0px 0px 10px deeppink;
+  
+
+}
+
+@media (max-width:800px){
+    .cont-full-contact-into{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
