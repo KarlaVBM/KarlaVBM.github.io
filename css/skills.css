@@ -190,6 +190,17 @@
     border: rgb(68, 0, 255) 2px solid;
 }
 
+#ajax:hover{
+    box-shadow: 0px 0px 12px rgb(51, 181, 171);
+    border: rgb(51, 181, 171) 2px solid;
+}
+
+#jQuery:hover{
+    box-shadow: 0px 0px 12px rgb(92, 122, 255);
+    border: rgb(92, 122, 255) 2px solid;
+}
+
+
 
 
 
