@@ -1,9 +1,9 @@
 .cont-full-briefcase{
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
-    height: 400px;
+    height: auto;
+    min-height: 400px;
     float: left;
-    
     overflow: hidden;
 }
 
@@ -14,11 +14,93 @@
     letter-spacing: 5px;
     font-weight: 800;
     width: 100%;
-   
     float: left;
     color: white;
     text-align: center;
     color: deeppink ;
-    /*-webkit-text-stroke:rgb(255, 138, 200) 1px;
-    text-shadow: 0px 0px 3px rgb(255, 138, 200);*/
 }
+
+.cont-into-briefcase{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.cont-briefcase:nth-child(1){
+    background-color: transparent;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    float: left;
+    padding-bottom: 20px;
+    
+}
+
+.cont-briefcase:nth-child(2){
+    background-color: transparent;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    float: left;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.briefcase{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    float: left;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px white;
+    border: 2px white solid;
+}
+
+.briefcase img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.briefcase:hover{
+    box-shadow: 0px 0px 15px rgba(0, 191, 255,1);
+    border: 2px rgba(0, 191, 255,1) solid;
+    cursor: pointer;
+}
+
+.briefcase-name{
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.briefcase-name p{
+    background-color: transparent;
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-weight: 800;
+    font-family: "LEMONMILK-Bold";
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
