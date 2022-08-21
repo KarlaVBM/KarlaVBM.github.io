@@ -195,6 +195,12 @@
     border: rgb(92, 122, 255) 2px solid;
 }
 
+@media (max-width:380px){
+    .cont-full-skills h2{
+        font-size: 38px;
+    }
+}
+
 
 
 
