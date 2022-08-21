@@ -106,3 +106,8 @@
     margin-top: 10px;
 }
 
+@media (max-width:380px){
+    .cont-full-briefcase h2{
+        font-size: 38px;
+    }
+}
