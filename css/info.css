@@ -1,31 +1,28 @@
 .cont-full-info{
     background-color: rgb(0, 0, 0,0.9);
-    
     width: 100%;
     height: auto;
     min-height: 500px;
     float: left;
-
     overflow: hidden;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .cont-full-info h2{
     background-color: transparent;
     font-family: "Bebas";
-    font-size: 40px;
+    font-size: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
     letter-spacing: 5px;
     font-weight: 800;
     width: 100%;
-   
     float: left;
-    color: white;
     text-align: center;
     color: deeppink ;
     /*-webkit-text-stroke:rgb(255, 138, 200) 1px;
     text-shadow: 0px 0px 3px rgb(255, 138, 200);*/
     margin-bottom: 60px;
-   
 }
 
 .info-full-photo{
