@@ -45,6 +45,8 @@
     height: 50vw;
     max-width: 400px;
     max-height: 400px;
+    min-width: 180px;
+    min-height: 180px;
     float: right;
     display: flex;
     justify-content: center;
@@ -185,6 +187,27 @@
     text-shadow: 0px 0px 2px deeppink;
 }
 
+
+@media (max-width:1000px){
+    .cont-full-aboutme{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    .info-full-photo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-cv button{
+        height: 40px;
+    }
+}
 
 
 @media (max-width:520px){
