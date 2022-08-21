@@ -122,3 +122,9 @@
         padding-right: 25px;
     }
 }
+
+@media (max-width:380px){
+    .cont-full-contact h2{
+        font-size: 38px;
+    }
+}
