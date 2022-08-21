@@ -31,9 +31,6 @@
     height: auto;
     min-height: 40px;
     float: left;
-
-   
-
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -53,15 +50,11 @@
     align-items: center;
     overflow: hidden;
     border-radius: 100%;
-
     box-shadow: 0px 0px 15px deeppink;
     border: deeppink 2px solid;
 }
 
 
-
-
-/*NUEVO*/
 .cont-full-aboutme{
     background-color:transparent;
     width: 60%;
@@ -69,7 +62,7 @@
     float: left;
     overflow: hidden;
     padding-right: 40px;
-    
+    padding-left: 30px;
 }
 
 
@@ -136,8 +129,9 @@
     margin: 0;
     font-size: 40px;
     font-weight: 600;
-    color: white;
-    font-family: "LEMONMILK-ligth";
+    color: deeppink;
+    font-family: "LEMONMILK-Bold";
+    text-shadow: 0px 0px 10px rgba(255, 20, 145, 0.5);
 }
 
 .cont-cv{
@@ -160,11 +154,14 @@
     overflow: hidden;
     padding: 10px;
     text-align: justify;
+    margin-top: 20px;
 }
 
 .cont-bio p{
     color: white;
+    font-weight: 600;
     font-family: "LEMONMILK-ligth";
+    line-height: 26px;
 }
 
 .cont-cv button{
