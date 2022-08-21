@@ -4,12 +4,15 @@
     height: auto;
     float: left;
     overflow: hidden;
+    padding-top: 50px;
 }
 
 .cont-full-contact h2{
     background-color: transparent;
     font-family: "Bebas";
-    font-size: 40px;
+    font-size: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
     letter-spacing: 5px;
     font-weight: 800;
     width: 100%;
